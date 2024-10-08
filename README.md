@@ -23,18 +23,20 @@ All required dependencies are managed in the `pom.xml` file.
 1. Clone the repository:
     ```
     gh repo clone ziniann/sauceDemoSimpleWeb
+    ```
+    ```
     cd sauceDemoSimpleWeb
     ```
 
-2. Modify the `config.properties` file:
+1. Modify the `config.properties` file:
     - Add the path to your ChromeDriver
 
-3. Build the project using Maven:
+2. Build the project using Maven:
     ```
     mvn clean install
     ```
 
-4. Run the test suite:
+3. Run the test suite:
     ```
     mvn test
     ```
