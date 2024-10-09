@@ -20,27 +20,21 @@ All required dependencies are managed in the `pom.xml` file.
   
 ## Setup Instructions
 
-1. Clone the repository:
+1. Import the project:
     ```
-    gh repo clone ziniann/sauceDemoSimpleWeb
+    git clone https://github.com/ziniann/sauceDemoSimpleWeb.git
     ```
     ```
     cd sauceDemoSimpleWeb
     ```
-
-1. Modify the `config.properties` file:
-    - Add the path to your ChromeDriver
-
 2. Build the project using Maven:
     ```
     mvn clean install
     ```
-
 3. Run the test suite:
     ```
     mvn test
     ```
-
 ## Reports
 
 After running the tests, the test results will be available in the `testng-results.xml`.
